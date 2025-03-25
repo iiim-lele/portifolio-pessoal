@@ -1,10 +1,10 @@
-# 📝 README - Portfólio CodeMaster Dev 🚀
+# 📝 README - Portfólio Lettie Dev 🚀
 
 ![Preview do Portfólio](https://img.shields.io/badge/Status-Online-brightgreen) ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%2C%20CSS%2C%20JS-blue)
 
 ## 🌟 Sobre o Projeto
 
-Portfólio profissional de: **João... (seu nome)**, desenvolvido para mostrar meus projetos e habilidades como Desenvolvedor Full-stack. Design moderno, responsivo e com modo claro/escuro!
+Portfólio profissional de: Leticia Gilioli de Souza, desenvolvido para mostrar meus projetos e habilidades como Desenvolvedor. Design moderno, responsivo e com modo claro/escuro!
 
 ✨ **Destaques**:
 - 🎨 Design elegante e minimalista
@@ -64,7 +64,7 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-Feito com ❤️ por **João... (seu nome) Contatos** 👨‍💻
+Feito com ❤️ por **Leticia Gilioli de Souza** 👨‍💻
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
