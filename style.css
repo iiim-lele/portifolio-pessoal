@@ -229,7 +229,7 @@ section {
 
 .home {
   width: 100%;
-  height: 100vh;
+  padding-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -849,6 +849,10 @@ form textarea {
 }
 
 @media (max-width: 920px) {
+  .home {
+    flex-direction: column;
+  }
+
   .button {
     max-width: 44rem;
     display: flex;
@@ -927,10 +931,7 @@ form textarea {
 }
 
 @media screen and (max-width: 840px) {
-  .home-mac{
-    display: none;
-  }
-
+  
   #menu-icon {
     display: block; /* Mostrar apenas em telas menores */
   }
