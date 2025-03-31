@@ -667,7 +667,7 @@ img.balls {
 
 /* Contato */
 .contact {
-  background-image: var(--bg-contact);
+  background-image: linear-gradient( #fff, rgba(216, 112, 147, 0.715), #fff );
   background-position: center;
   background-size: cover;
   display: flex;
@@ -723,8 +723,8 @@ form textarea {
 }
 
 .contact-form .submit:hover {
-  background: var(--text-color);
-  color: var(--second-text-color);
+  background: palevioletred;
+  color: white;
   cursor: pointer;
 }
 
@@ -806,6 +806,17 @@ form textarea {
   margin-top: 2rem;
   font-weight: bold;
   animation: fadeIn 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  /* muda a grossura da barrinha de rolagem */
+  width: 12px;
+  background-color: rgb(218, 144, 169);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(194, 101, 132);
+  border-radius: 6px;
 }
 
 /* Animações */
