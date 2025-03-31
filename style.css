@@ -1,4 +1,4 @@
-/* Estilos globais */
+/* Estilos gerais */
 * {
   padding: 0;
   margin: 0;
@@ -81,7 +81,7 @@ body {
   font-family: var(--first-font);
 }
 
-/* ------------------- nav ------------------- */
+/* Navbar */
 nav {
   position: fixed;
   width: 100%;
@@ -123,7 +123,7 @@ nav {
   font-weight: bolder;
 }
 
-/* switch */
+/* Switch */
 #switch {
   position: relative;
   width: 4rem;
@@ -171,7 +171,7 @@ nav {
   border-radius: 624.94rem;
 }
 
-/* Ícones de redes sociais */
+/* Ícones das redes sociais */
 .social-network {
   display: flex;
   gap: 2rem;
@@ -208,9 +208,10 @@ figure {
   transform: scale(0.9);
 }
 
-/* ==================== MENU HAMBURGUER ==================== */
+/* Hambúrguer do menu */
 #menu-icon {
-  display: none; /* Esconder em telas grandes */
+  /* Esconder em telas grandes */
+  display: none; 
   font-size: 3.5rem;
   color: var(--text-color);
   cursor: pointer;
@@ -240,6 +241,7 @@ section {
   position: absolute;
   z-index: -2;
   right: 5rem;
+  border-radius: 50px;
 }
 
 .home-presentation {
@@ -330,7 +332,7 @@ section {
   border: 2px solid var(--second-text-color);
 }
 
-/* ---------------- About ----------------------- */
+/* Sobre */
 .about {
   position: relative;
   display: flex;
@@ -342,14 +344,19 @@ section {
   margin: 0;
 
   /* Novas propriedades para a animação */
-  opacity: 0; /* Inicialmente invisível */
-  transform: translateX(100%); /* Começa fora da tela, à direita */
-  transition: opacity 1s ease, transform 1s ease; /* Transição suave */
+  /* Inicialmente invisível */
+  opacity: 0; 
+  /* Começa fora da tela, à direita */
+  transform: translateX(100%); 
+  /* Transição suave */
+  transition: opacity 1s ease, transform 1s ease; 
 }
 
 .about.visible {
-  opacity: 1; /* Torna visível */
-  transform: translateX(0); /* Move para a posição original */
+  /* Torna visível */
+  opacity: 1; 
+  /* Move para a posição original */
+  transform: translateX(0); 
 }
 
 .about-img {
@@ -358,6 +365,7 @@ section {
 
 .about-img img {
   max-width: 45rem;
+  border-radius: 50px;
 }
 
 .about-img:hover {
@@ -434,7 +442,7 @@ img.balls {
   right: 5rem;
 }
 
-/* ------------ skills ------------------ */
+/* Habilidades/Skills */
 .skills {
   display: flex;
   align-items: center;
@@ -514,7 +522,7 @@ img.balls {
   width: 5rem;
 }
 
-/* ------------ CARROSSEL ------------------ */
+/* Carrossel */
 .projects {
   background-position: center;
   background-color: var(--bg-color);
@@ -657,7 +665,7 @@ img.balls {
   right: 1rem;
 }
 
-/* --------------- contact ----------------------- */
+/* Contato */
 .contact {
   background-image: var(--bg-contact);
   background-position: center;
@@ -748,7 +756,7 @@ form textarea {
   text-align: center;
 }
 
-/* ==================== BOTÃO DE VOLTAR AO TOPO ==================== */
+/* Botão devoltar ao topo */
 .top {
   position: fixed;
   bottom: 1rem;
@@ -760,23 +768,33 @@ form textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 5rem; /* Tamanho do botão */
-  height: 5rem; /* Tamanho do botão */
-  background-color: var(--second-bg-color); /* Cor de fundo */
-  border-radius: 50%; /* Formato circular */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+  /* Tamanho do botão */
+  width: 5rem; 
+  /* Tamanho do botão */
+  height: 5rem; 
+  /* Cor de fundo */
+  background-color: var(--second-bg-color); 
+  /* Formato circular */
+  border-radius: 50%; 
+  /* Sombra para destaque */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   transition: all 0.3s ease;
 }
 
 .top a:hover {
-  background-color: var(--second-text-color); /* Cor de fundo ao passar o mouse */
-  transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+  /* Cor de fundo ao passar o mouse */
+  background-color: var(--second-text-color); 
+  /* Efeito de zoom ao passar o mouse */
+  transform: scale(1.1); 
 }
 
 .top i {
-  font-size: 3rem; /* Tamanho do ícone */
-  color: var(--text-color); /* Cor do ícone */
-  font-weight: bold; /* Deixa o ícone mais espesso */
+  /* Tamanho do ícone */
+  font-size: 3rem; 
+  /* Cor do ícone */
+  color: var(--text-color);
+  /* Deixa o ícone mais espesso */ 
+  font-weight: bold; 
 }
 
 /* Mensagem de agradecimento */
@@ -933,7 +951,8 @@ form textarea {
 @media screen and (max-width: 840px) {
   
   #menu-icon {
-    display: block; /* Mostrar apenas em telas menores */
+    /* Mostrar apenas em telas menores */
+    display: block; 
   }
   #switch {
     margin: 0.5rem 1rem;
@@ -943,7 +962,8 @@ form textarea {
   }
   .navlist {
     position: fixed;
-    top: -100%; /* Esconder o menu */
+    /* Esconder o menu */
+    top: -100%; 
     left: 0;
     width: 100%;
     height: 100vh;
@@ -971,7 +991,8 @@ form textarea {
     color: var(--main-color);
   }
   .navlist.open {
-    top: 0; /* Mostrar o menu */
+    /* Mostrar o menu */
+    top: 0; 
   }
 }
 
